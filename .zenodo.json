@@ -1,0 +1,19 @@
+{
+  "title": "FireWatch Colombia: spatiotemporal audit of thermal source classification in VIIRS active fire detections",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Vásquez Castro, Néstor Oswaldo",
+      "affiliation": "Universidad Central, Bogotá, Colombia",
+      "orcid": "0009-0003-6483-790X"
+    }
+  ],
+  "keywords": [
+    "active fire detection", "VIIRS", "remote sensing",
+    "spatiotemporal analysis", "thermal anomalies",
+    "product validation", "Colombia"
+  ],
+  "language": "eng",
+  "access_right": "open"
+}

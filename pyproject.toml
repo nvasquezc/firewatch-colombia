@@ -1,0 +1,39 @@
+[project]
+name = "firewatch-colombia"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Néstor O. Vásquez C.", email = "nvasquezc@ucentral.edu.co" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "diptest>=0.11.0",
+    "geopandas>=1.1.4",
+    "kaleido>=1.4.0",
+    "pandas>=3.0.5",
+    "plotly>=7.0.0",
+    "pyarrow>=25.0.1",
+    "pyproj>=3.8.0",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+    "scikit-learn>=1.9.0",
+    "scipy>=1.18.1",
+    "shapely>=2.1.2",
+    "tenacity>=9.1.4",
+]
+
+[project.scripts]
+firewatch-colombia = "firewatch_colombia:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "jupyterlab>=4.6.3",
+    "pytest>=9.1.1",
+    "ruff>=0.16.6",
+]

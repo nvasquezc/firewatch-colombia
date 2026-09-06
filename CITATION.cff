@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: >
+  FireWatch Colombia: spatiotemporal audit of thermal source
+  classification in VIIRS active fire detections
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Vásquez Castro"
+    given-names: "Néstor Oswaldo"
+    orcid: "https://orcid.org/0009-0003-6483-790X"
+    affiliation: "Universidad Central, Bogotá, Colombia"
+version: 0.1.0
+date-released: "2026-09-06"
+license: MIT
+repository-code: "https://github.com/nvasquezc/firewatch-colombia"
+abstract: >
+  Regional audit of the thermal source classification embedded in the NASA
+  FIRMS VIIRS 375 m active fire product over Colombian territory. Detections
+  are aggregated onto a metric grid in the national reference system and
+  characterized by persistence descriptors: recurrence rate, monthly
+  coverage, radiometric stability and circular concentration over the annual
+  cycle. Cells labelled by the provider as volcanoes or static land sources
+  serve as a verified positive set, allowing discriminant power to be
+  calibrated without manual annotation. The study tests whether presumed
+  vegetation fire detections contain a separable subpopulation of persistent
+  anthropogenic thermal sources absent from the global mask, and quantifies
+  the resulting bias in national burned area statistics.
+keywords:
+  - active fire detection
+  - VIIRS
+  - remote sensing
+  - spatiotemporal analysis
+  - thermal anomalies
+  - product validation
+  - Colombia

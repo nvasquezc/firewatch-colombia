@@ -1,7 +1,9 @@
 # FireWatch Colombia
 
-Auditoría regional de la clasificación de fuentes térmicas en el producto
-VIIRS 375 m de NASA FIRMS sobre el territorio colombiano.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22565857.svg)](https://doi.org/10.5281/zenodo.22565857)
+
+Auditoría espaciotemporal de la clasificación de fuentes térmicas en el
+producto VIIRS 375 m de NASA FIRMS sobre territorio colombiano.
 
 ---
 
